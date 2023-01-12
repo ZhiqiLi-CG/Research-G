@@ -1,0 +1,9 @@
+[submodule "Research-M"]
+	path = Research-M
+	url = https://github.com/ZhiqiLi-CG/Research-M
+[submodule "Research-V"]
+	path = Research-V
+	url = https://github.com/ZhiqiLi-CG/Research-V
+[submodule "Research-P"]
+	path = Research-P
+	url = https://github.com/ZhiqiLi-CG/Research-P
