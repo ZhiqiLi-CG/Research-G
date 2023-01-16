@@ -32,3 +32,14 @@ Research-V provide visualization tools for data, like point-cloud  drawer for ph
 
 **This is my original purpose of these libraries!** During the experiment of physical simulation , we must do calculation for physical process and visualize the result to see if the result is correct (Research-M and Research-V are born therefore).  During 
 
+## 4. This Lib is Easy to Use!
+
+The only thing you need to do in your cmakelist:(Take Research-V as example)
+
+1. `include ` the `.cmake` file of the lib you want to use.
+2. call the ``Set_ResearchV_Env`` before you ``add_execute``
+3. call ``ResearchV_Deps`` to add all dependencies.
+
+You could select some options during this process and the result of the options you select will be provided in a `config.h` file which is add to you project automatically.
+
+If you have some questions, don't worry and each library provide several examples and you can build it by running the `make_project.py` directly without other config.
