@@ -1,11 +1,15 @@
 # Research-G
 
-Research-G is a library used for **researches**(which means that I do not focus too much on performance and easy-to-use and easy-to-improve are the two points I care most) on computer graphics and it can be used to make demos for computer graphics easily.  Research-G comprises **three parts, Research-M, Research-P and Research-V** which are used for mathematical computation, physical simulation and visualization respectively.  The dependencies between the three parts are research-M -> research-P, research-M -> research-V.
+Research-G is a library used for **researches**(easy-to-use and easy-to-improve are the two points I care most) on computer graphics and it can be used to make demos for computer graphics easily.  Research-G comprises **three parts, Research-M, Research-P and Research-V** which are used for mathematical computation, physical simulation and visualization respectively.  The dependencies between the three parts are research-M -> research-P, research-M -> research-V.
 
 This repository is a complete library of research-G and you can also used three parts respectively.  Here are the link of the three repositories.
 -	research-M:  https://github.com/ZhiqiLi-CG/Research-M.git
 -	research-P: https://github.com/ZhiqiLi-CG/Research-P.git
 -	research-V: https://github.com/ZhiqiLi-CG/Research-V.git
+
+Research-G is established on a unified design, where functions can be switched to execute on GPU or CPU easily by changing the template argument, for example, ``MLS_Fitting<DEVICE>(...)`` is executed on GPU and ``MLS_Fitting<HOST>(...)`` is executed on CPU and switched to execute for different dimensional simulation easily.  The construction of Research-G is from the basis of the calculation, calculation of vector and matric, to complex physical simulation.  This library can ensure a unified achetecture for all calculations and simple visualization required for research in computer graphics.
+
+Here are some demo of Research-G: 
 
 ## 1. Research-M
 
