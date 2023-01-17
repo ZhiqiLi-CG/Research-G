@@ -9,7 +9,7 @@ This repository is a complete library of research-G and you can also used three 
 
 Research-G is established on a unified design, where functions can be switched to execute on GPU or CPU easily by changing the template argument, for example, ``MLS_Fitting<DEVICE>(...)`` is executed on GPU and ``MLS_Fitting<HOST>(...)`` is executed on CPU and switched to execute for different dimensional simulation easily.  The construction of Research-G is from the basis of the calculation, calculation of vector and matric, to complex physical simulation.  This library can ensure a unified achetecture for all calculations and simple visualization required for research in computer graphics.
 
-Here are some demo of Research-G: 
+Here are some demo of Research-G: https://drive.google.com/drive/folders/1vJUvb0URO1eZNk5KnIcDC8VJ2a-rDQTO?usp=sharing
 
 ## 1. Research-M
 
